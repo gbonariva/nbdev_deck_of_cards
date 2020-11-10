@@ -1,4 +1,5 @@
-# nbdev template
+# Deck of Cards
 
-Use this template to more easily create your nbdev project.
+A repository used to test NBDev (based on nbdev template)
 
+https://nbdev.fast.ai/example.html
