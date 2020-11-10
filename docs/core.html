@@ -80,6 +80,50 @@ License: <a href="http://creativecommons.org/licenses/by/4.0/">http://creativeco
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ten</span> <span class="o">=</span> <span class="n">Card</span><span class="p">(</span><span class="n">suit</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">rank</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">jack</span> <span class="o">=</span> <span class="n">Card</span><span class="p">(</span><span class="n">suit</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">rank</span><span class="o">=</span><span class="mi">11</span><span class="p">)</span>
+<span class="n">queen</span> <span class="o">=</span> <span class="n">Card</span><span class="p">(</span><span class="n">suit</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">rank</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">king</span> <span class="o">=</span> <span class="n">Card</span><span class="p">(</span><span class="n">suit</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">rank</span><span class="o">=</span><span class="mi">13</span><span class="p">)</span>
+<span class="n">ace</span> <span class="o">=</span> <span class="n">Card</span><span class="p">(</span><span class="n">suit</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">rank</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ten</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">jack</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">queen</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">king</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ace</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>10 of Clubs
+Jack of Diamonds
+Queen of Hearts
+King of Spades
+Ace of Clubs
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
 
 <div class="output_wrapper">
 <div class="output">
@@ -107,6 +151,96 @@ Attributes:
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="Deck.add_card" class="doc_header"><code>Deck.add_card</code><a href="https://github.com/gbonariva/nbdev_deck_of_cards/tree/master/nbdev_deck_of_cards/card.py#L77" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>Deck.add_card</code>(<strong><code>card</code></strong>)</p>
+</blockquote>
+<p>Adds a card to the deck.
+card: Card</p>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="Deck.remove_card" class="doc_header"><code>Deck.remove_card</code><a href="https://github.com/gbonariva/nbdev_deck_of_cards/tree/master/nbdev_deck_of_cards/card.py#L83" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>Deck.remove_card</code>(<strong><code>card</code></strong>)</p>
+</blockquote>
+<p>Removes a card from the deck or raises exception if it is not there.</p>
+<p>card: Card</p>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="Deck.pop_card" class="doc_header"><code>Deck.pop_card</code><a href="https://github.com/gbonariva/nbdev_deck_of_cards/tree/master/nbdev_deck_of_cards/card.py#L90" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>Deck.pop_card</code>(<strong><code>i</code></strong>=<em><code>-1</code></em>)</p>
+</blockquote>
+<p>Removes and returns a card from the deck.
+i: index of the card to pop; by default, pops the last card.</p>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="Deck.shuffle" class="doc_header"><code>Deck.shuffle</code><a href="https://github.com/gbonariva/nbdev_deck_of_cards/tree/master/nbdev_deck_of_cards/card.py#L96" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>Deck.shuffle</code>()</p>
+</blockquote>
+<p>Shuffles the cards in this deck.</p>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="Deck.sort" class="doc_header"><code>Deck.sort</code><a href="https://github.com/gbonariva/nbdev_deck_of_cards/tree/master/nbdev_deck_of_cards/card.py#L100" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>Deck.sort</code>()</p>
+</blockquote>
+<p>Sorts the cards in ascending order.</p>
+
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="Deck.move_cards" class="doc_header"><code>Deck.move_cards</code><a href="https://github.com/gbonariva/nbdev_deck_of_cards/tree/master/nbdev_deck_of_cards/card.py#L104" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>Deck.move_cards</code>(<strong><code>hand</code></strong>, <strong><code>num</code></strong>)</p>
+</blockquote>
+<p>Moves the given number of cards from the deck into the Hand.
+hand: destination Hand object
+num: integer number of cards to move</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
 
 </div>
     {% endraw %}
